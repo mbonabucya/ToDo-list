@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ToDo list</title>
-</head>
-<body>
-    <div class="list">
-        Today's To Do
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>James ToDo-list</title>
+  </head>
+  <body>
+    <section>
+      <div class="list-header">
+        <h1>Today's To Do</h1>
+        <i class="fa-solid fa-rotate"></i>
+        <i class="fa-brands fa-btc"></i>
+      </div>
+      <form>
+        <input type="text" placeholder="Add to your list ..." />
+        <ul class="todos-container">
 
-    </div>
-</body>
+        </ul>
+        <button id="completed-btn">clear all completed</button>
+      </form>
+    </section>
+  </body>
 </html>
