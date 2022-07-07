@@ -1,3 +1,29 @@
-h1 {
-    color: orange;
+.task-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid black;
+  padding: 50px;
+}
+
+.todos-container {
+  margin-top: 30px;
+}
+
+.tasks {
+  height: 30px;
+}
+
+.fa-trash {
+  display: none;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-rotate {
+  margin-left: 40px;
 }

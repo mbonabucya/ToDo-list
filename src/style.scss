@@ -15,5 +15,8 @@ body {
 .list-header {
   text-align: $text-align;
   margin-top: $top;
+}
 
+.fa-trash {
+  display: none;
 }
