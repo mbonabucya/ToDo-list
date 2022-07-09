@@ -6,8 +6,6 @@
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
-    overflow-y: auto;
-    background: rgb(33, 85, 175);
   }
   
   /* The  Form section */

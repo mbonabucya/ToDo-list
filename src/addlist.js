@@ -8,7 +8,9 @@ const addNewTask = (input) => {
     completed: false,
     description: input.value,
   };
-
+  if (input.value === '') {
+    input.preventDefault();
+  }
   taskList.push(task);
 
   saveStorage(taskList);
